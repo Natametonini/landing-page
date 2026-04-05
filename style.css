@@ -1,0 +1,60 @@
+/*🦆 1. Classic “Cute Duck” Palette (bright & friendly)
+
+Think cartoon yellow ducklings.
+
+Primary (duck yellow): #FACC15
+Accent (beak orange): #FB923C
+Background (soft sky): #E0F2FE
+Surface (light): #FFFFFF
+Text (dark): #1F2937 (you can keep this from your current palette)
+
+👉 This works great for fun, welcoming, playful websites.
+
+🌿 2. Nature Pond Theme (calmer & aesthetic)
+
+More “ducks in a peaceful pond” vibe.
+
+Primary (soft green): #86EFAC
+Secondary (water blue): #38BDF8
+Accent (muted yellow): #FDE68A
+Background: #F0FDF4
+Text: #1F2937
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: flex;   
+    flex-direction: column;
+}
+
+.header {
+    background-color: #facc15;
+    display: flex;
+    justify-content: space-around;
+    color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    gap: 16px;
+}
+
+.logoImg {
+    width: 40px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:#1F2937;
+}
