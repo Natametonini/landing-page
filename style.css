@@ -41,6 +41,7 @@ body {
 .logo {
     display: flex;
     gap: 16px;
+    color: #1F2937;
 }
 
 .logoImg {
@@ -54,23 +55,22 @@ ul {
     align-items: center;
     gap: 20px;
     font-size: 20px;
-
+    overflow: hidden;
 }
 
 li {
     border: 1px solid black;
     padding: 8px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: #1F2937;
-    
 }
-
 
 a {
     text-decoration: none;
     color:#ffffff;
     font-size: 18px;
 }
+
 
 .firstSection {
     background-color:#facc15;
@@ -79,6 +79,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     padding: 60px;
+    color: #1F2937;
 }
 
 .containerTop {
@@ -119,7 +120,7 @@ a {
 }
 
 .infoSection {
-    padding: 20px 0 60px 0;
+    padding: 40px 0 60px 0;
 }
 
 .duckStylesTitle {
@@ -179,6 +180,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 125px;
+    color: #1F2937;
 }
 
 .container {
@@ -204,6 +206,8 @@ a {
 
 .footer {
     background-color: #facc15;
+    color: #1F2937;
+    font-weight: 600;
     margin: 0;
     text-align: center;
     padding: 25px;
