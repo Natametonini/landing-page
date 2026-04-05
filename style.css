@@ -28,6 +28,7 @@ body {
     font-size: 16px;
     display: flex;   
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -199,4 +200,11 @@ a {
 
 .btn {
     display: flex;
+}
+
+.footer {
+    background-color: #facc15;
+    margin: 0;
+    text-align: center;
+    padding: 25px;
 }
