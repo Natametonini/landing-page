@@ -110,7 +110,7 @@ a {
 
 .signUp {
     background-color:#FB923C;
-    padding: 8px 20px;
+    padding: 0px 20px;
     border-radius: 10px;
     font-weight: 700;
     height: 40px;
@@ -171,4 +171,32 @@ a {
     margin: 0;
     display: flex;
     align-self: flex-end;
+}
+
+.fourthSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px;
+}
+
+.container {
+    display: flex;
+    gap: 200px;
+    background-color: #facc15;
+    padding: 40px 125px;
+    border-radius: 10px;
+}
+
+.signUpMsg {
+    display: flex;
+    flex-direction: column;
+}
+
+.quackAction {
+    margin: 0;
+}
+
+.btn {
+    display: flex;
 }
